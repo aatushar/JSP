@@ -1,6 +1,7 @@
-<%@include file= "header.jsp" %>
+
+<%@include file="header.jsp" %>
+
+<h1>Hello World! from Home</h1>
 
 
-        <h1>Hello World! from Home</h1>
- 
-<%@include file= "footer.jsp" %>
+<%@include file="footer.jsp" %>
