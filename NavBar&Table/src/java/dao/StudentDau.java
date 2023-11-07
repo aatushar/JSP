@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package dau;
+package dao;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -32,6 +32,7 @@ public class StudentDau {
         
         status=ps.executeUpdate();
         System.out.println(status);
+        DbCon.getCon().close();
         
         return status;
     }  
